@@ -1,0 +1,80 @@
+/* HEADER */
+
+#header {
+    font-family:"DM Sans", sans-serif;
+    background: fixed;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+}
+
+header {
+    text-align: center;
+}
+
+/* SOCIAL */
+.social {
+    top: 25%;
+    cursor: pointer;
+}
+
+.social a {
+    justify-content: center;
+}
+
+.social {
+    position: relative;
+    columns: 2rem;
+    text-align: right;
+    z-index: 1;
+    font-size: 1.3rem;
+}
+
+header .social a:hover {
+    transform: translateY(-8px);
+}
+/* LOGO */
+.logo {
+    height: 0px;
+    top: 25%;
+}
+
+.back-1{
+    position: relative;
+    background-color: rgb(83, 253, 83);
+    height: 55px;
+    top: -19px;
+    margin: -10px;
+    z-index: -1;
+}
+
+.back-2 {
+    position: relative;
+    background-color: rgb(48, 219, 48);
+    height: 60px;
+    z-index: -2;
+    filter: blur(5px);
+    border-radius: 0.7rem;
+    top: -19px;
+}
+
+/* CONTENT */
+
+.text {
+    position: relative;
+    background-size: 100%;
+    font-family: "DM Sans", sans-serif;
+    margin-left: -8px;
+    text-align: center;
+}
+
+h1 {
+    height: 4rem;
+    position: relative;
+    text-align: center;
+}
+
+/* MEDIA */
